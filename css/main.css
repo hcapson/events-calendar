@@ -10,50 +10,43 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Merriweather", serif;}
+  font-family: Merriweather, serif;
+}
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.sun, .mon, .tues, .tue, .wed, .thu, .fri, .sat {
-  border: 1px solid #ccc;
-}
-
 td {
+  height: 9.75em;
   border: 1px solid #ccc;
 }
 
-tbody td {
-  height: 8em;
-  border-bottom-color: #ccc;
-  border-right: solid 1px #ccc;
+li {
+  border: 1px solid;
+  border-radius: 8px;
 }
 
-ul li {
-  border-radius: .3rem;
+.grey {
+  background-color: #333;
+  border-color: #f2f2f2;
+  color: #666;
 }
 
-.red {
-  background-color: #f2bcbc;
-  border: 1px solid #b92828;
-  color: #991919;
+.green {
+  background-color: #6b7e54;
+  border-color: #d1e0bf;
+  color: #51603f;
 }
 
 .blue {
   background-color: #d2d6f0;
-  border: 1px solid #1d38da;
+  border-color: #1d38da;
   color: #38448e;
 }
 
-.green {
-  background-color: #d1e0bf;
-  border: 1px solid #6b7e54;
-  color: #51603f;
-}
-
-.grey {
-  background-color: #f2f2f2;
-  border: 1px solid #666;
-  color: #333;
+.red {
+  background-color: #f2bcbc;
+  border-color: #b92828;
+  color: #991919;
 }
